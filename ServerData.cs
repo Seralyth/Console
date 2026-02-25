@@ -21,8 +21,8 @@ namespace Console
         public static bool DisableTelemetry = false; // Disables telemetry data being sent to the server
 
         // Warning: These endpoints should not be modified unless hosting a custom server. Use with caution.
-        public const string ServerEndpoint = "https://iidk.online";
-        public static readonly string ServerDataEndpoint = $"{ServerEndpoint}/serverdata";
+        public const string ServerEndpoint = "https://iimodinfo.vercel.app";
+        public static readonly string ServerDataEndpoint = $"{ServerEndpoint}/serverdata.json";
 
         // The dictionary used to assign the admins only seen in your mod.
         public static readonly Dictionary<string, string> LocalAdmins = new Dictionary<string, string>()
